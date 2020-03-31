@@ -94,7 +94,7 @@ Now we're gonna write a basic test for the `<ChatsList />` component. In the tes
 
 Now we can select various HTML elements with a query selector when we test the component. We will install a couple of packages that will assist us in implementing the test:
 
-    $ yarn add jest-fetch-mock @testing-library/jest-dom @testing-library/react
+    $ yarn add jest-fetch-mock @testing-library/jest-dom @testing-library/react --dev
 
 - The [`jest-fetch-mock`](https://www.npmjs.com/package/jest-fetch-mock) package can mock responses emitted by the Fetch API.
 - The [`@testing-library/jest-dom`](https://www.npmjs.com/package/@testing-library/jest-dom) package will add custom matchers that will help us examine HTML contents of DOM elements.
@@ -194,7 +194,7 @@ We will now move on to testing the server where we will learn how to setup Jest 
 
 To set-up Jest, we will run the following in the command line:
 
-    $ yarn add --dev jest @types/jest ts-jest
+    $ yarn add jest @types/jest ts-jest --dev
 
 
 This will basically install Jest and make it useable with TypeScript.
